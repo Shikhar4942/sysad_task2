@@ -1,0 +1,9 @@
+version: '3.8'
+services:
+  phpmyadmin:
+    image: phpmyadmin:latest
+    environment:
+      PMA_HOST: test-mysql  
+      MYSQL_ROOT_PASSWORD: strong_password  
+    ports:
+      - "8081:80"
