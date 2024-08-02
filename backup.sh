@@ -20,7 +20,7 @@ BACKUP_FILE="$BACKUP_DIR/$DB_NAME-$DATE.sql"
 HOUR=$(date +%H)
 MINUTE=$(date +%M)
 DAY_OF_MONTH=$(date +%d)
-DAY_OF_WEEK=$(date +%u) # 1=Monday, 2=Tuesday, ..., 7=Sunday
+DAY_OF_WEEK=$(date +%u) 
 MONTH=$(date +%m)
 
 
